@@ -1,0 +1,24 @@
+{
+    "name": "DiscordBot",
+    "version": "0.1.0",
+    "description": "Mon premier Bot",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node ./dist/src/index.js",
+      "build": "tsc"
+    },
+    "keywords": [],
+    "author": "Fasterplayer",
+    "license": "ISC",
+    "dependencies": {
+      "@types/ws": "^7.2.3",
+      "discord.js": "^12.3.2"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-preset-env": "^1.7.0",
+      "nodemon": "^1.18.10"
+    }
+  }
+  
